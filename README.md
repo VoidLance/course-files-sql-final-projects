@@ -37,7 +37,8 @@ relational database and modeling common CRM workflows:
 ### Prerequisites
 
 - Python 3.8 or newer
-- SQLite 3 (included with Python and not required as a separate dependency)
+- SQLite support (included with Python; the `sqlite3` command-line tool is
+  optional for direct SQL exploration)
 
 The application uses only Python's standard library, so no package
 installation or virtual environment is required.
